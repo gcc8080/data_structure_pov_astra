@@ -1,0 +1,249 @@
+1
+00:00:00,000 --> 00:00:06,000
+世界，起初是一片数据。
+In the beginning, the world is data.
+
+2
+00:00:06,000 --> 00:00:12,000
+每一次点击，每一束光，每一个念头。
+Every click. Every photon. Every idea.
+
+3
+00:00:12,000 --> 00:00:18,000
+数量不是力量。组织，才是。
+Volume is not power. Organization is.
+
+4
+00:00:18,000 --> 00:00:24,000
+让关系显形，让计算发生。
+Make relationships visible. Make computation possible.
+
+5
+00:00:24,000 --> 00:00:30,000
+数据结构：数字世界的隐形建筑。
+Data structures: the invisible architecture of our world.
+
+6
+00:00:30,000 --> 00:00:36,000
+数组，让元素拥有连续的位置。
+An array gives elements contiguous positions.
+
+7
+00:00:36,000 --> 00:00:42,000
+基址加上偏移，直接抵达目标。
+Base address plus offset. Arrive directly.
+
+8
+00:00:42,000 --> 00:00:48,000
+按索引访问：O(1)。
+Indexed access: O(1).
+
+9
+00:00:48,000 --> 00:00:54,000
+中间插入，通常需要移动后续元素。
+Insertion in the middle usually shifts later elements.
+
+10
+00:00:54,000 --> 00:01:00,000
+紧凑与局部性，让遍历更接近硬件的节奏。
+Compact layout and locality bring traversal closer to hardware.
+
+11
+00:01:00,000 --> 00:01:06,000
+链表，不要求相邻的内存。
+A linked list does not require adjacent memory.
+
+12
+00:01:06,000 --> 00:01:12,000
+每个节点，都保存通往下一个节点的线索。
+Each node carries a reference to the next.
+
+13
+00:01:12,000 --> 00:01:18,000
+已知插入位置，改写连接即可插入。
+With the insertion position known, rewire the links.
+
+14
+00:01:18,000 --> 00:01:24,000
+但寻找第 k 个节点，需要逐个前行。
+Finding the kth node means following links one by one.
+
+15
+00:01:24,000 --> 00:01:30,000
+灵活连接的代价：指针空间与访问局部性。
+Flexibility costs pointer space and memory locality.
+
+16
+00:01:30,000 --> 00:01:36,000
+栈，把最近发生的事留在顶端。
+A stack keeps the most recent item on top.
+
+17
+00:01:36,000 --> 00:01:42,000
+后进先出：LIFO。
+Last in, first out: LIFO.
+
+18
+00:01:42,000 --> 00:01:48,000
+一次调用，压入一层上下文。
+A call pushes another layer of context.
+
+19
+00:01:48,000 --> 00:01:54,000
+一次返回，回到上一个现场。
+A return restores the previous context.
+
+20
+00:01:54,000 --> 00:02:00,000
+撤销、回溯、递归：秩序也可以向后。
+Undo. Backtracking. Recursion. Order can run backward.
+
+21
+00:02:00,000 --> 00:02:06,000
+队列，将到达顺序变成服务顺序。
+A queue turns arrival order into service order.
+
+22
+00:02:06,000 --> 00:02:12,000
+先进先出：FIFO。
+First in, first out: FIFO.
+
+23
+00:02:12,000 --> 00:02:18,000
+尾部入队，头部出队。
+Enqueue at the tail. Dequeue at the head.
+
+24
+00:02:18,000 --> 00:02:24,000
+广度优先搜索，一层一层探索未知。
+Breadth-first search explores one layer at a time.
+
+25
+00:02:24,000 --> 00:02:30,000
+当生产快于消费，排队就成为延迟。
+When production outpaces consumption, queues become latency.
+
+26
+00:02:30,000 --> 00:02:36,000
+哈希函数，把键映射到桶。
+A hash function maps a key to a bucket.
+
+27
+00:02:36,000 --> 00:02:42,000
+理想的分布，让查找平均接近 O(1)。
+Good distribution enables expected O(1) lookup.
+
+28
+00:02:42,000 --> 00:02:48,000
+不同的键，也可能落入同一个桶。
+Different keys can land in the same bucket.
+
+29
+00:02:48,000 --> 00:02:54,000
+冲突必须处理，扩容也有成本。
+Collisions need a strategy. Resizing has a cost.
+
+30
+00:02:54,000 --> 00:03:00,000
+平均很快，不意味着最坏情况也很快。
+Fast on average does not mean fast in the worst case.
+
+31
+00:03:00,000 --> 00:03:06,000
+树，将关系组织成层次。
+A tree organizes relationships into a hierarchy.
+
+32
+00:03:06,000 --> 00:03:12,000
+二叉搜索树，让比较决定向左还是向右。
+A binary search tree turns comparison into direction.
+
+33
+00:03:12,000 --> 00:03:18,000
+保持平衡，查找路径可缩短到 O(log n)。
+With balance, search paths can be O(log n).
+
+34
+00:03:18,000 --> 00:03:24,000
+失去平衡，树也可能退化成一条链。
+Without balance, a tree can degenerate into a chain.
+
+35
+00:03:24,000 --> 00:03:30,000
+层次的力量，来自持续维护的约束。
+The power of hierarchy comes from maintained invariants.
+
+36
+00:03:30,000 --> 00:03:36,000
+当关系不再是一条线，也不再是一棵树。
+When relationships are neither a line nor a tree.
+
+37
+00:03:36,000 --> 00:03:42,000
+顶点与边，构成网络。
+Vertices and edges form a network.
+
+38
+00:03:42,000 --> 00:03:48,000
+道路、依赖、社交：同一种抽象。
+Roads. Dependencies. Social ties. One abstraction.
+
+39
+00:03:48,000 --> 00:03:54,000
+遍历让连接可见，路径让距离可计算。
+Traversal reveals connections. Paths make distance computable.
+
+40
+00:03:54,000 --> 00:04:00,000
+图不只记录世界，也让我们探索世界。
+Graphs do not just record the world. They let us explore it.
+
+41
+00:04:00,000 --> 00:04:06,000
+同一份数据，可以拥有不同的组织方式。
+The same data can take different forms.
+
+42
+00:04:06,000 --> 00:04:12,000
+时间、空间、局部性、维护成本。
+Time. Space. Locality. Maintenance.
+
+43
+00:04:12,000 --> 00:04:18,000
+大 O 描述增长趋势，不是实际耗时。
+Big O describes growth, not elapsed time.
+
+44
+00:04:18,000 --> 00:04:24,000
+读多还是写多？数据多大？操作是什么？
+Read-heavy or write-heavy? How much data? Which operations?
+
+45
+00:04:24,000 --> 00:04:30,000
+最好的结构，来自对问题的深刻理解。
+The best structure begins with understanding the problem.
+
+46
+00:04:30,000 --> 00:04:36,000
+数组赋予位置，链表赋予连接。
+Arrays give position. Linked lists give connection.
+
+47
+00:04:36,000 --> 00:04:42,000
+栈保存来路，队列安排前行。
+Stacks remember the way back. Queues arrange the way forward.
+
+48
+00:04:42,000 --> 00:04:48,000
+哈希加速抵达，树缩小选择，图连接世界。
+Hashes locate. Trees narrow. Graphs connect.
+
+49
+00:04:48,000 --> 00:04:54,000
+算法决定如何前进，结构决定如何组织。
+Algorithms decide how to proceed. Structures decide how to organize.
+
+50
+00:04:54,000 --> 00:05:00,000
+理解结构，创造可能。
+Understand structure. Create possibility.
