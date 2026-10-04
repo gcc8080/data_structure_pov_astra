@@ -1,0 +1,8 @@
+node_modules/
+output/*.wav
+output/*-silent.mp4
+output/*.rgb
+output/*.log
+output/shape-of-order.mp4
+assets/*.ttf
+output/still-*.jpg

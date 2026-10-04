@@ -1,0 +1,1 @@
+{"name":"shape-of-order","version":"1.0.0","private":true,"description":"A five-minute bilingual data-structure motion film","scripts":{"render":"node scripts/render.cjs","score":"python3 scripts/score.py","test":"node scripts/test.cjs","stills":"node scripts/render.cjs --stills"},"dependencies":{"@napi-rs/canvas":"0.1.100"}}
